@@ -11,7 +11,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
-public class MainWindow extends JFrame implements Interactable,CanvasRepaintListener{
+public class MainWindow extends JFrame implements Interactable,CanvasRepaintListener, Thread.UncaughtExceptionHandler{
     private static final int POS_X=200;
     private static final int POS_Y=200;
     private static final int WINDOW_WIDTH=800;
@@ -19,6 +19,7 @@ public class MainWindow extends JFrame implements Interactable,CanvasRepaintList
     private final ArrayList<Interactable> interactables=new ArrayList<>();
     private final Background bg = new Background();
     private MainWindow(){
+        Thread.setDefaultUncaughtExceptionHandler(this);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(POS_X,POS_Y,WINDOW_WIDTH,WINDOW_HEIGHT);
         setTitle("Circles");
@@ -77,5 +78,10 @@ public class MainWindow extends JFrame implements Interactable,CanvasRepaintList
 
     public static void main(String[] args) {
         new MainWindow();
+    }
+
+    @Override
+    public void uncaughtException(Thread t, Throwable e) {
+        JOptionPane.showMessageDialog(null,e.getMessage(),"Нельзя!",JOptionPane.ERROR_MESSAGE);
     }
 }
