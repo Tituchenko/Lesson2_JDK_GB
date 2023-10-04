@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="484f555a-0b44-4342-a3c5-99c22d9881be" name="Changes" comment="Lesson 2">
+    <list default="true" id="484f555a-0b44-4342-a3c5-99c22d9881be" name="Changes" comment="Exception ok">
       <change beforePath="$PROJECT_DIR$/../Hw1/HomeWork1" beforeDir="false" afterPath="$PROJECT_DIR$/../Hw1/HomeWork1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,11 +48,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Илья/Documents/Учеба/19. JDK/Homework1/src/main/java/org/example/Client.java"
+    "last_opened_file_path": "C:/Users/Илья/Documents/Учеба/19. JDK/Homework1/src/main/java/org/example/Logger.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.png" />
       <recent name="org.example.two.brick" />
       <recent name="org.example.circle" />
       <recent name="org.example.common" />
@@ -90,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 2" />
+    <MESSAGE value="Exception ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception ok" />
   </component>
 </project>
